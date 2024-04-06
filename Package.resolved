@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/takasqr/SwiftWing",
       "state" : {
-        "revision" : "989fe3e808c7fe60e875b925e582311aa061b6c8",
-        "version" : "0.1.4"
+        "revision" : "99ef5ee6e349c0d0bf749b5a80b5ff4578192080",
+        "version" : "0.1.5"
       }
     }
   ],
