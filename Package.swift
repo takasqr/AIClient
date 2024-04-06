@@ -16,7 +16,7 @@ let package = Package(
             targets: ["AIClient"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/takasqr/SwiftWing", .upToNextMajor(from: "0.1.7")),
+        .package(url: "https://github.com/takasqr/SwiftWing", .upToNextMajor(from: "0.1.8")),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
