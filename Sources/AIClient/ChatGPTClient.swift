@@ -9,12 +9,12 @@ import Foundation
 import SwiftWing
 
 @available(macOS 12.0, *)
-class ChatGPTClient {
+public class ChatGPTClient {
     private let apiClient = APIClient()
     private let apiKey: String
     private let endpoint = "https://api.openai.com/v1/chat/completions"
 
-    init() {
+    public init() {
         let key = Key()
         
         apiKey = key.get(key: "OPENAI_API_KEY") as! String
@@ -22,7 +22,7 @@ class ChatGPTClient {
         print("KEY", apiKey)
     }
     
-    func queryChatGPT(prompt: String) async throws -> String {
+    public func queryChatGPT(prompt: String) async throws -> String {
         let headers = [
             "Content-Type": "application/json",
             "Authorization": "Bearer \(apiKey)"
